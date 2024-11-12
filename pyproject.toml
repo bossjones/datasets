@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "better-exceptions>=0.3.3",
+    "datachain>=0.6.8",
+    "imageio>=2.36.0",
+    "imutils>=0.5.4",
+    "logging-tree>=1.10",
+    "loguru>=0.7.2",
+    "marimo>=0.9.17",
+    "rich>=13.9.4",
+    "transformers>=4.46.2",
+    "typer>=0.13.0",
+]
