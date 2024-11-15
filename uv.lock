@@ -223,6 +223,11 @@ wheels = [
 ]
 
 [[package]]
+name = "bbid"
+version = "1.0"
+source = { git = "https://github.com/ostrolucky/Bulk-Bing-Image-downloader#bb938f19a2c59841dedbc6e5515a061751af748c" }
+
+[[package]]
 name = "better-exceptions"
 version = "0.3.3"
 source = { registry = "https://pypi.org/simple" }
@@ -487,6 +492,7 @@ name = "datasets"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "bbid" },
     { name = "better-exceptions" },
     { name = "datachain" },
     { name = "imageio" },
@@ -501,6 +507,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "bbid", git = "https://github.com/ostrolucky/Bulk-Bing-Image-downloader" },
     { name = "better-exceptions", specifier = ">=0.3.3" },
     { name = "datachain", specifier = ">=0.6.8" },
     { name = "imageio", specifier = ">=2.36.0" },

@@ -688,3 +688,7 @@ add-cursor-context:
 	rm -rf datasets/vendored/goob_ai/.git
 	rm -rf datasets/vendored/langchain/.git
 	rm -rf datasets/vendored/langgraph/.git
+
+# Download images of helldivers 2 skull logo
+download-helldivers2skulllogo:
+	uv run bbid.py -o "datasets/images/photos_of_helldivers2skulllogo" --filters '+filterui:imagesize-medium&form=IRFLTR&first=1' "helldivers 2 skull logo" --limit 300
