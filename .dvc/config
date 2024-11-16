@@ -1,2 +1,5 @@
 [core]
     autostage = true
+    remote = deeplearning
+['remote "deeplearning"']
+    url = ssh://pi@192.168.3.88:22
